@@ -1,0 +1,15 @@
+Service Incident:
+
+Key sections:
+- Quick Mitigation: Scale connection pool ✅
+- Root Causes: Slow queries, connection leaks, insufficient pool
+- Permanent Fix Checklist (4 items)
+
+"**PR #347: Fix EU region database connection pool exhaustion**
+
+Status: ✅ Ready for merge
+- All CI checks passed
+- 5 files changed (+232, -15)
+- Includes tests and documentation
+
+⚠️ Blocking: Needs 2 approvals (currently 0)
